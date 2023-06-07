@@ -52,31 +52,32 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: NIVETHA K
 RegisterNumber:  212222230102
 ```
-UP COUNTER
 ```
-module upcounter(clock,reset,up);
-input clock,reset;
-output reg[0:2] up;
-always@(posedge clock or posedge reset)
+UP COUNTER:
+
+module upcon(clk,A);
+input clk;
+output reg[0:3]A;
+always@(posedge clk)
 begin
-if(reset)
-up=3'b 000;
-else
-up=up+1;
+	A[0]=((((A[1])&(A[2]))&A[3])^A[0]);
+	A[1]=(((A[2])&(A[3]))^A[1]);
+	A[2]=((A[3])^A[2]);
+	A[3]=1^A[3];
 end
 endmodule
-```
-DOWN COUNTER
-```
-module DOWN(clock,reset,down);
-input clock,reset;
-output reg[2:0] down;
-always@(posedge clock or posedge reset)
+
+DOWNCOUNTER:
+
+module downcon(clk,A);
+input clk;
+output reg[0:3]A;
+always@(posedge clk)
 begin
-if(reset)
-down=3'b 111;
-else
-down=down-1;
+	A[0]=((((~A[1])&(~A[2]))&A[3])^A[0]);
+	A[1]=(((A[2])&(A[3]))^A[1]);
+	A[2]=((A[3])^A[2]);
+	A[3]=1^A[3];
 end
 endmodule
 ```
