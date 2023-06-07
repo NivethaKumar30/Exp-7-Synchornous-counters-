@@ -86,33 +86,34 @@ endmodule
 
 UP COUNTER
 
-![image](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/84e1f69c-c1b1-4b12-a533-44b906f31374)
+![1](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/a2aed002-cc91-499d-86fe-538dba4f0f86)
 
 DOWN COUNTER
 
-![image](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/b7cecd7c-9d7e-4f0d-aa87-12b62cf131e9)
+![2](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/30597f5d-20af-4cc2-ab89-30e44076c655)
 
 
 ### TIMING DIGRAMS FOR COUNTER  
 
 UP COUNTER
 
-![image](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/8e88672e-1aaa-495d-81d2-c45f90d233f9)
+![3](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/883b844a-fd4a-4c8f-a0b9-80a0496993af)
 
 
 DOWN COUNTER
 
-![image](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/0a2fc5ca-0253-4f4d-8490-ee3be14077d5)
+![4](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/87326593-046e-4673-8765-aa8daa65a9fa)
 
 ### TRUTH TABLE 
 
 UP COUNTER
 
-![image](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/f6b2aca5-cfe8-4f36-ab5d-b830a909f8b1)
+![5](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/6bad8194-d39d-4a36-b86c-942cad846752)
+
 
 DOWN COUNTER
 
-![image](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/0447ba7a-327b-4781-961c-5cdd5fbf5db3)
+![6](https://github.com/NivethaKumar30/Exp-7-Synchornous-counters-/assets/119559844/73c9d9ed-2c7e-4772-ad60-215d01355fa5)
 
 ### RESULTS 
 
