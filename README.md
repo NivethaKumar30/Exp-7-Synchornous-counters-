@@ -54,7 +54,6 @@ RegisterNumber:  212222230102
 ```
 ```
 UP COUNTER:
-
 module upcon(clk,A);
 input clk;
 output reg[0:3]A;
@@ -66,7 +65,8 @@ begin
 	A[3]=1^A[3];
 end
 endmodule
-
+```
+```
 DOWNCOUNTER:
 
 module downcon(clk,A);
@@ -75,8 +75,8 @@ output reg[0:3]A;
 always@(posedge clk)
 begin
 	A[0]=((((~A[1])&(~A[2]))&A[3])^A[0]);
-	A[1]=(((A[2])&(A[3]))^A[1]);
-	A[2]=((A[3])^A[2]);
+	A[1]=(((~A[2])&(~A[3]))^A[1]);
+	A[2]=((~A[3])^A[2]);
 	A[3]=1^A[3];
 end
 endmodule
